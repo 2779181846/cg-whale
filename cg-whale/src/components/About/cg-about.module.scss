@@ -1,0 +1,101 @@
+.left {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    height: 752px;
+    background-image: url('http://cgteamwork.com/image/level-9-1.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.address {
+    position: absolute;
+    right: 22%;
+    top: 230px;
+    text-align: center;
+    padding: 0 16px;
+    background: rgba(0, 0, 0, 0.80);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+    line-height: 40px;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%;
+    width: 40%;
+    height: 100%;
+}
+
+.title {
+    padding-top: 80px;
+    font-size: 20px;
+    text-align: LEFT;
+    line-height: 28px;
+}
+
+.text {
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: LEFT;
+    color: rgba(255, 255, 255, 0.60);
+    line-height: 24px;
+}
+
+.lianxi {
+    padding-top: 48px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: LEFT;
+    line-height: 28px;
+}
+
+.tip {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: LEFT;
+    color: rgba(255, 255, 255, 0.60);
+    line-height: 32px;
+}
+
+.img_box {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 188px;
+    width: 168px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    margin-right: 24px;
+}
+
+.r_text {
+    padding-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.icon {
+    margin-top: 8px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+.beiantext{
+    padding-top: 48px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: LEFT;
+    color: rgba(255, 255, 255, 0.40);
+    line-height: 20px;
+}

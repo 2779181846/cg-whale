@@ -1,0 +1,91 @@
+
+
+.title_1 {
+    padding-top: 160px;
+}
+
+.active {
+    text-align: center;
+}
+
+.cgHomeBtn {
+    display: inline-block;
+    height: 48px;
+    padding: 0 26px;
+    background-color: #3688ff;
+    font-size: 20px;
+    border-radius: 24px;
+    line-height: 48px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.cgHomeBtn:hover {
+    color: white;
+
+}
+
+.videoContent {
+    padding-top: 32px;
+}
+
+.VCBox {
+    padding: 32px;
+    margin: auto;
+    box-sizing: border-box;
+    min-width: 658px;
+    max-width: 1344px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #27364B;
+    border-radius: 24px;
+}
+
+.VCHead {
+    position: relative;
+    height: 32px;
+    padding-bottom: 24px;
+}
+
+.circle {
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+}
+
+.circle.red {
+    left: 32px;
+    background-color: #EE6A5F;
+}
+
+.circle.yellow {
+    left: 56px;
+    background-color: #F5BD4F;
+}
+
+.circle.green {
+    left: 80px;
+    background-color: #61C454;
+}
+
+.cheekBox {
+    height: 32px;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+    width: 540px;
+    background-color: #2a2f35;
+    font-size: 13px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.video_1 {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}

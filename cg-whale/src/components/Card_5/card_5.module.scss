@@ -1,0 +1,46 @@
+.box {
+    position: relative;
+    width: 1198px;
+    height: 690px;
+    margin: 0 auto;
+    background-image: url('http://cgteamwork.com/image/level-5-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.not-icon {
+    position: absolute;
+    top: 126px;
+    left: -30px;
+    height: 100px;
+    width: 390px;
+    background-image: url('http://cgteamwork.com/image/level-5-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.mobile-icon {
+    position: absolute;
+    top: 132px;
+    right: 0;
+    height: 598px;
+    width: 294px;
+    background-image: url('http://cgteamwork.com/image/level-5-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.video {
+    margin-left: 5px;
+    margin-top: 24px;
+    width: 842px;
+    border-radius: 12px;
+    object-fit: cover;
+    // position: absolute;
+    // top: 100px;
+    // left: 0;
+}

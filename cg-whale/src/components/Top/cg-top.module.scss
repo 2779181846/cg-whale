@@ -1,0 +1,96 @@
+.cgTop {
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    background-color: rgb(16, 17, 20);
+    background: #101114;
+}
+
+.topLogo {
+    width: 220px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../assets/img/logo.png);
+}
+
+.topContent {
+    width: calc(100% - 440px);
+    height: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cont {
+    margin: 0 12px;
+    width: 80px;
+    height: 80px;
+}
+
+.c_btn {
+    text-align: center;
+    border-radius: 36px;
+    margin-top: 22px;
+    display: inline-block;
+    padding: 0 24px;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: unset;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .9);
+    cursor: pointer;
+}
+
+.c_btn.show {
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.c_btn:hover {
+    color: rgba(255, 255, 255, .9);
+
+}
+
+.topRight {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.language {
+    text-align: center;
+    margin-top: 22px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    width: 66px;
+}
+
+.freeTry {
+    width: 112px;
+    height: 80px;
+
+}
+
+.freeTry>div {
+    cursor: pointer;
+    margin-top: 22px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 36px;
+    line-height: 32px;
+    padding: 0 20px;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    border-radius: 36px;
+    color: rgba(14, 210, 228, 1);
+    letter-spacing: 1px;
+    font-size: 16px;
+}

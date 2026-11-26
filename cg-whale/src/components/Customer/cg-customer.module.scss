@@ -1,0 +1,32 @@
+.title_8 {
+    padding-bottom: 64px;
+}
+
+.box {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 90%;
+}
+
+.list {
+    padding-top: 12px;
+    margin-bottom: 36px;
+    height: 76px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.icon{
+    display: inline-block;
+    vertical-align: top;
+    height: 64px;
+    width: 144px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.space{
+    display: inline-block;
+    vertical-align: top;
+    width: 4.5%;
+}

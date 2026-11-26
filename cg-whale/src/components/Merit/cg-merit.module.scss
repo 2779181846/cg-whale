@@ -1,0 +1,91 @@
+.title_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.t_1 {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.listBox {
+    padding: 0 36px;
+    min-height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.LBCont {
+    vertical-align: top;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 24px;
+    min-width: 516px;
+    flex: 1;
+    margin: 12px;
+}
+
+.leftCont {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 264px);
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 56px;
+    box-sizing: border-box;
+}
+
+.leftTitle {
+    padding: 56px 0 107px 56px;
+    line-height: 46px;
+    font-size: 32px;
+    text-align: left;
+}
+
+.leftText_1 {
+    padding-left: 56px;
+    text-align: left;
+    line-height: 36px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+    overflow: hidden;
+    display: flex;
+}
+.leftText_2 {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.60);
+    line-height: 24px;
+    padding: 0 32px 0 56px;
+    overflow: hidden;
+}
+
+.LTIcon {
+    display: inline-block;
+    vertical-align: top;
+    height: 36px;
+    width: 28px;
+    background-image: url('http://cgteamwork.com/image/level-3-3.png');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+}
+
+.rightCont {
+    vertical-align: top;
+    display: inline-block;
+    width: 264px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.rightCont_1{
+    background-image: url('http://cgteamwork.com/image/level-3-1.png');
+}
+.rightCont_2{
+    background-image: url('http://cgteamwork.com/image/level-3-2.png');
+}
